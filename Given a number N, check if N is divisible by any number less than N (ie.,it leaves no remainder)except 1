@@ -1,0 +1,7 @@
+n=int(input())              #Getting int as input
+for i in range(2,n):        #using for loop here ,starts from range 2 bcoz its leaves no reminder except 1 and less than the number N
+  if n%i==0 :
+    print("yes")
+    break
+else:
+    print("no")
